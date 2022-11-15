@@ -23,3 +23,7 @@ def contacto(request):
 def comunidad(request):
 
     return render(request, 'WebJecApp/Comunidad.html')
+
+def index(request):
+
+    return render(request, 'WebJecApp/Index.html')
