@@ -27,3 +27,7 @@ def comunidad(request):
 def index(request):
 
     return render(request, 'WebJecApp/Index.html')
+
+
+#dfsdfdsdf
+#sdsadsads
