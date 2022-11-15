@@ -22,10 +22,9 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="Home"),
-    # path('base/', views.base, name="Base"),
-    # path('ministerios/', views.base, name="ministerios"),
-    # path('multimedia/', views.base, name="multimedia"),
-    # path('mision/', views.base, name="mision"),
-    # path('contacto/', views.base, name="contacto"),
+    path('comunidad', views.comunidad, name="Comunidad"),
+    path('nosotros', views.nosotros, name="Nosotros"),
+    path('mision', views.mision, name="Mision"),
+    path('contacto', views.contacto, name="Contacto"),
 ]
 
