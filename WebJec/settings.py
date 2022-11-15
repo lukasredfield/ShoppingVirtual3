@@ -69,6 +69,11 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATE_DIRS = (
+    os.path.join( 'templates'),
+)
+
+
 WSGI_APPLICATION = 'WebJec.wsgi.application'
 
 
