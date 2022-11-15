@@ -6,11 +6,11 @@
 
 {% block content %}
 
-<section id="banner">
+<section id="banner"}>
    <div class="container">
-       <div class="row">
-           <div class="col-md-12">
-               <h2>UNA COMUNIDAD QUE CRECE</h2>
+       <div>
+           <div>
+               <h2 style="color: whitesmoke; padding-left: 4px; ">UNA COMUNIDAD QUE CRECE</h2>
            </div>
        </div>
 </section>
@@ -31,7 +31,9 @@
                    </div>
                </div>
                <div class="col-md-4">
-                   <img src="assets/images/03_headephone.png" alt="Responsive image" class="img-responsive">
+                    <div>
+                        <figure><img src="{% static 'img/picnics 01.jpg' %}" style="border-radius: 50%" alt="Responsive image" class="img-responsive">
+                    </div>
                </div>
            </div>
        </div>
@@ -43,7 +45,9 @@
        <div class="two-features">
            <div class="row">
                <div class="col-md-4">
-               <img src="assets/images/04_shoe.png" alt="Responsive image" class="img-responsive">
+                    <div>
+                        <figure><img src="{% static 'img/biblia 2.jpg' %}" style="border-radius: 50%" alt="Responsive image" class="img-responsive">
+           </div>
                </div>
                <div class="col-md-8">
                    <div class="section-highlight">
@@ -63,11 +67,11 @@
 
 <section id="three">
    <div class="container">
-       <div class="three-features">
+       <div class="two-features">
            <div class="row">
                <div class="col-md-8">
                    <div class="section-highlight">
-                       <h2>YANKEES BASEBALL CAP</h2>
+                       <h2>Familia</h2>
                    </div>
                    <div class="section-details">
                        <p>
@@ -77,8 +81,8 @@
                    </div>
                </div>
                <div class="col-md-4">
-                   <img src="assets/images/05_cap.png" alt="Responsive image" class="img-responsive">
-               </div>
+                <div>
+                    <figure><img src="{% static 'img/familia.jpg' %}" style="border-radius: 90%;" alt="Responsive image" class="img-responsive">
            </div>
        </div>
    </div>
@@ -113,9 +117,9 @@
            <div class="row">
                <div class="col-md-6">
                    <div class="four-features four-features-left-bottom">
-                       <div class="features-img">
-                           <img src="assets/images/07.jpg" alt="Responsive image" class="img-responsive">
-                       </div>
+                    <div>
+                        <figure><img src="{% static 'img/liderazgo 01.jpg' %}" alt="Responsive image" class="img-responsive">
+                    </div>
                        <div class="features-content">
                            <h3>Liderázgo</h3>
                            <p>
@@ -127,7 +131,9 @@
                </div>
                <div class="col-md-6">
                    <div class="four-features four-features-right-bottom">
-                       <img src="assets/images/08.jpg" alt="Responsive image" class="img-responsive">
+                    <div class="about_img">
+                        <figure><img src="{% static 'img/alabanza 01.jpg' %}" alt="Responsive image" class="img-responsive">
+                    </div>
                        <div class="features-content">
                            <h3>Alabanza</h3>
                            <p>
@@ -141,7 +147,9 @@
            <div class="row">
                <div class="col-md-6">
                    <div class="four-features four-features-left-top">
-                   <img src="assets/images/09.jpg"  alt="Responsive image" class="img-responsive">
+                    <div class="about_img">
+                        <figure><img src="{% static 'img/discipulado 01.jpg' %}" alt="Responsive image" class="img-responsive">
+                    </div>
                        <div class="features-content">
                            <h3>Vida Discipular</h3>
                            <p>
@@ -155,7 +163,9 @@
                </div>
                <div class="col-md-6">
                    <div class="four-features four-features-right-top">
-                       <img src="assets/images/10.jpg" alt="Responsive image" class="img-responsive">
+                    <div class="about_img">
+                        <figure><img src="{% static 'img/discipulado 02.jpg' %}" alt="Responsive image" class="img-responsive">
+                    </div>
                        <div class="features-content">
                            <h3>Multimedia</h3>
                            <p>

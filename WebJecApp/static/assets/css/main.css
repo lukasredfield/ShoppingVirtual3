@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.9s ease-in-out;
     /*background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url(../01 (37).jpg);*/
-    background-image: url(../images/0137.jpg);
+    background-image: url(../images/0138.jpg);
 	background-size: auto, cover;
     background-attachment: fixed;
     background-position: center, center;
@@ -94,14 +94,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #four {
-	background-color: #242d44;
+	background-color: #f7c5b5;
 	color: #ffffff;
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
 
 .four-features{
-	background-color: #29344e;
+	background-color: #fceae4;
 	border-radius: 8px;
 /*	margin: 30px 35px;*/
 }
