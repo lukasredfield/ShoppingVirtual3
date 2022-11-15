@@ -7,3 +7,19 @@ def base(request):
 def home(request):
 
     return render(request, 'WebJecApp/Home.html')
+
+def nosotros(request):
+
+    return render(request, 'WebJecApp/Nosotros.html')
+
+def mision(request):
+
+    return render(request, 'WebJecApp/Mision.html')
+
+def contacto(request):
+
+    return render(request, 'WebJecApp/Contacto.html')
+
+def comunidad(request):
+
+    return render(request, 'WebJecApp/Comunidad.html')
