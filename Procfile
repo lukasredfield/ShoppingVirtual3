@@ -1,1 +1,1 @@
-web: gunicorn WebJec.wsgi
+web: gunicorn ProyectoWebJec.wsgi
