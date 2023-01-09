@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ik%$zqoe9(4jhb00=ymuf^3p0znmq=e+og@dvp!m5$_7g$m1($'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['shoppingvirtual.up.railway.app','localhost','']
 
